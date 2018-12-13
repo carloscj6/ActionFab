@@ -1,4 +1,27 @@
 apply plugin: 'com.android.library'
+ext {
+    bintrayRepo = 'UI'
+    bintrayName = 'ActionFab'
+
+    publishedGroupId = 'com.revosleap.actionfab'
+    libraryName = 'ActionFab'
+    artifact = 'actionfab'
+
+    libraryDescription = 'Dynamic floating Action Button'
+
+    siteUrl = 'https://github.com/carloscj6/ActionFab'
+    gitUrl = 'https://github.com/carloscj6/ActionFab.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'carloscj6'
+    developerName = 'Carlos Anyona'
+    developerEmail = 'anyona6.cj@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 
 android {
     compileSdkVersion 28
@@ -33,3 +56,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.android.support:design:28.0.0'
 }
+repositories {
+    mavenCentral()
+}
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
