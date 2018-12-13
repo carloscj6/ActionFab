@@ -1,6 +1,8 @@
 # ActionFab
 Simple to use Floating Action Menu.
 
+[ ![Download](https://api.bintray.com/packages/carloscj6/UI/ActionFab/images/download.svg) ](https://bintray.com/carloscj6/UI/ActionFab/_latestVersion)
+
 ## Screenshot
 <img src="https://github.com/carloscj6/ActionFab/blob/master/app/Screenshots/ezgif.com-optimize.gif" width="300px">
 
