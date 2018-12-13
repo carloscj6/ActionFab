@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ActionFab</string>
+    <string name="excess_warning">The number of items should not exceed 5</string>
+</resources>
