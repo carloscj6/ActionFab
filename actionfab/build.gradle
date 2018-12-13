@@ -12,7 +12,7 @@ ext {
     siteUrl = 'https://github.com/carloscj6/ActionFab'
     gitUrl = 'https://github.com/carloscj6/ActionFab.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.01'
 
     developerId = 'carloscj6'
     developerName = 'Carlos Anyona'
@@ -29,7 +29,7 @@ android {
 
 
     defaultConfig {
-        minSdkVersion 17
+        minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
