@@ -62,9 +62,7 @@ and in your `layout.xml` set the parent layout as:
                 .setResId(R.drawable.ic_photo));
         fabLayout.setItems(actionItems);
 
-        fabLayout.mainActionFab(new ActionItem()
-                .setNormalColor(Color.MAGENTA)
-        .setResColor(Color.WHITE));
+       
     }
 
     @Override
@@ -85,6 +83,12 @@ and in your `layout.xml` set the parent layout as:
 As per now, the library works well with upto 5 items but I hope it will be fun to use.
 You can cusomize the main floating action button as per your preferences but it cannot take transparent color value `0`
 and instead it will use your accent color.
+You can do it as:
+```java
+ fabLayout.mainActionFab(new ActionItem()
+                .setNormalColor(Color.MAGENTA)
+        .setResColor(Color.WHITE));
+  ```
 
 ## Contributions
 Feel free to fork and  make pull requests. 
