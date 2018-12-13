@@ -11,7 +11,7 @@ First in your buld.gradle file include this dependency
 
 ```gradle
 dependencies {
-    implementation 'com.revosleap.actionfab:actionfab:1.0.0'
+    implementation 'com.revosleap.actionfab:actionfab:1.0.01'
 }
 ``` 
 and in your `layout.xml` set the parent layout as:
