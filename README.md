@@ -91,7 +91,9 @@ You can do it as:
                 .setNormalColor(Color.MAGENTA)
         .setResColor(Color.WHITE));
   ```
-
+## Bugs
+There can be some issue with the library not working no some instances, In the case please manually download and import the module from [here](https://github.com/carloscj6/ActionFab/tree/master/actionfab) or simply just download this project as zip and use the ActionFab module. 
+Am working on the best fix possible. :hushed: :hushed: :stuck_out_tongue:
 ## Contributions
 Feel free to fork and  make pull requests. 
 
